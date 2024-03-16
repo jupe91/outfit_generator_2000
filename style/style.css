@@ -1,0 +1,68 @@
+body {
+    background-color: rosybrown;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-size: 2vw;
+    padding: 2vh;
+}
+
+.container {
+    background-color: rgb(214, 144, 144);
+    margin: 5vw auto;
+    border: 3px solid black;
+    max-width: 600px; 
+    height: auto; 
+    text-align: center;
+}
+
+.container div {
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto; 
+}
+
+#ylaosa,#alaosa,#jalkineet,.vaatetukset {
+    padding-bottom: 3vh;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4vh;
+    font-size: 1.5vw;
+}
+
+button {    
+    font-size: 1.5vw;
+    background-color: rosybrown;
+    border-radius: 10px;
+    margin-bottom: 8vh;   
+}
+
+.topnav {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(214, 144, 144);
+    overflow: hidden;
+    border: 0.4vh solid black;
+    display:block;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+.topnav a:hover {
+    background-color: rosybrown;
+}
+
+.topnav a.active {
+    background-color: rosybrown;
+}
